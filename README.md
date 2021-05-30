@@ -10,24 +10,8 @@ This project is a [balenaCloud](https://www.balena.io/cloud) stack with the foll
 ## Hardware required
 Here’s the list of items required for a basic setup:
 
-* Raspberry Pi 3B or greater (A B+ or 4B works great, and less powerful Pis can be used albeit with lower performance)
-* 32GB (or larger) Micro-SD Card (we recommend Sandisk Extreme Pro SD cards)
+* Intel NUC
 * Power supply and cable
-
-## Software required
-This repository contains all of the software and configuration you’ll need to get started. We’re going to deploy this project on balenaCloud using a free account to push the project and all the software to your Raspberry Pi as well as to provide remote access. Therefore, you’ll need:
-
-* A tool to flash your SD card, such as balenaEtcher
-* A free balenaCloud account
-* A clone or download of our project from GitHub
-
-## Software setup
-
-Running this project is as simple as deploying it to a balenaCloud application, then downloading the OS image from the dashboard and flashing your SD card.
-
-[![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
-
-We recommend this button as the de-facto method for deploying new apps on balenaCloud, but as an alternative, you can set this project up with the repo and balenaCLI if you choose. Get the code from this repo, and set up [balenaCLI](https://github.com/balena-io/balena-cli) on your computer to push the code to balenaCloud and your devices. [Read more](https://www.balena.io/docs/learn/deploy/deployment/).
 
 ## Configuring Home Assistant
 A text editor called Hass-Configurator is available locally on port 3218. Using this editor, you can make changes to the Home Assistant configuration file /hass-config/configuration.yaml which is the default folder for Hass-Configurator.
